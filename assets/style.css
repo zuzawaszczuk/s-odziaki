@@ -1,0 +1,122 @@
+.top-header{
+    background-color: #222222;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    position:fixed;
+    width: 100%;
+    top:0;
+    width:100%;
+    z-index:100;
+}
+
+.title {
+    font-size: 48px;
+    color: rgb(55, 148, 148);
+    flex: 3; 
+    text-indent: 5%;
+    margin-left: 30px;
+    font-family: "Exo";
+}
+
+.drop-box-holder{
+    margin-top: 12px;
+    flex: 2;
+}
+.drop-box-holder.is-dragover {
+    background-color: rgb(159, 238, 128);
+  }
+
+.drop-box {
+    width: 70%;
+    height: 35px;
+    border-Width: 1px;
+    border-Style: dashed;
+    border-Radius: 5px;
+    color: rgb(55, 148, 148);
+    align-items: center;
+}
+
+.drop-product-menu{
+    flex: 1;
+    margin-top: 12px;
+    margin-right: 5%;
+}
+
+.header-title {
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.header-description {
+    color: #CFCFCF;
+    margin: 4px auto;
+    text-align: center;
+    max-width: 384px;
+}
+
+body {
+    font-family: "Evo", sans-serif;
+    margin: 0;
+    background-color: #F7F7F7;
+}
+.wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 32px;
+    
+}
+.card {
+    margin-bottom: 24px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+}
+.main-box {
+    display: flex;
+}
+
+.graph-box{
+    border-radius: 25px;
+    background: #ffffff;
+    padding: 20px;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.sugestions-box{
+    border-radius: 25px;
+    background: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 250px;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: justify;
+}
+.visualize-box{
+    border-radius: 25px;
+    background: #ffffff;
+    padding: 20px;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: justify;
+    height: 788px;
+}
+.predict-label{
+    font-size: 20px;
+    font-family: "Exo";
+}
